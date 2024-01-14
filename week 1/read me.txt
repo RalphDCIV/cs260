@@ -1,0 +1,23 @@
+Ralph Crowe
+Cs260
+
+
+By using a stuctured arry you can create a bag of marbles
+	the marbles can have vairables like their color or whatever value you want to give them
+
+marbles can be added with the add command by filling in a spot in the array
+
+marbles can be removed by getting a random number and pulling from that spot in the array
+
+
+you can add multiple marbles with the same name and it will work
+
+using the pull function when there are no marbles will simply tell you there are no marbles 
+
+inputing a incorect command (or just giberish) will just tell you to input a correct input and try again.
+
+
+
+
+
+	
