@@ -1,0 +1,19 @@
+1.To make a data structure you a function that adds a new node. This can be done either by making the new node the head 
+and pointing it to the old head or you can use a while loop to run through the linked list until you find the last node as it will be pointing to null and attach it from there. 
+2.you also need to be able to pull a node. This can be done by pulling the data from the head and deleting it and depending on the method of adding data it will either end up as a stack or a queue
+
+
+
+3.Each node will need a value that will point to the next node as well as whatever other data is being stored in it
+
+
+
+4.To pull from any node or a add a node to any spot you would need a way to symbolize which node was which to the user, I would do this by giving the nodes a value in the linked list so that each node has an easy to understand value.
+
+
+
+5.To destroy you would get the user input on which node they want to delete you would then take the pointer from the soon to be deleted node (which points to the next node) and set it to be the pointer of the previous node (the one pointing to the deleted node) and now you delete the data from the node.
+
+
+6.To add you would have to get input from the user on a node, (You could either add before the node or after the node (I’ll do before the node for this example)) you would create a node you would then 
+make the pointer to the node the user chose you would then set the pointer of the node that used to point to the node the user chose and set it to point to the newly added node.
