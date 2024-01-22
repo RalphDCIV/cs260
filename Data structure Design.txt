@@ -17,3 +17,31 @@ and pointing it to the old head or you can use a while loop to run through the l
 
 6.To add you would have to get input from the user on a node, (You could either add before the node or after the node (I’ll do before the node for this example)) you would create a node you would then 
 make the pointer to the node the user chose you would then set the pointer of the node that used to point to the node the user chose and set it to point to the newly added node.
+
+---------------
+
+gereral design
+
+Create
+a Struct with
+a trait for the pointer to the next
+a trait with a pointer to the previous(I dont know if this is needed but i think it will help make it easier)
+a trait to have a number for the user to distinguish them (For deleteing or adding in the middle)
+any other things you want to keep track of.
+
+create a Menu with 6 commands
+add 
+delete 
+(This will just add onto or delete the most recent node)
+
+Add to middle
+delete from middle
+(These will delete a value or add a valaue at any pint in the chain)
+
+a print command
+(Print out all of the value in the node, in order)
+
+Exit command
+(Exit the program)
+
+you would also need a function to update the nodes number value for when the nodes are deleted or added in the middle.
